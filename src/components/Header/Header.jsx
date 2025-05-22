@@ -2,7 +2,7 @@
 const Header = () => {
 
     return (
-        <div>
+        <div >
             <h2 className="text-3xl">Knowledge Hub</h2>
         </div>
     );
