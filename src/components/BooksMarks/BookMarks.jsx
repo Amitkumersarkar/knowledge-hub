@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BookMarks = () => {
+const BookMarks = ({ bookMarks }) => {
 
     return (
         <div className='md:w-1/3'>
-            <h2>BookMarks</h2>
+            <h2 className='text-2xl'>BookMarks Blogs: {bookMarks.length}</h2>
         </div>
     );
 };
